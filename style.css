@@ -4,8 +4,8 @@
 }
 
 body{
-    background-color: lightseagreen;
-    color: tomato;
+    background-color: lightblue;
+    color: darkslategray;
     font-family: Poetsen One;
     display: flex;
     flex-direction: column;
@@ -20,6 +20,7 @@ body{
     background-color: rgba(0, 0, 0, 0.4);
     padding: 20px 40px;
     border-radius: 5px;
+    height: 550px;
 }
 
 .container h1{
@@ -61,7 +62,7 @@ body{
 .form-con input{
     background-color: transparent;
     border: 0;
-    border-bottom: 2px #fff solid;
+    border-bottom: 2px #fff dashed;
     display: block;
     width: 100%;
     padding: 15px 0;
@@ -77,6 +78,7 @@ body{
 
 .text {
     margin-top: 30px;
+
 }
 
 .form-con label {
